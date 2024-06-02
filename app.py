@@ -10,8 +10,8 @@ ser = serial.Serial('/dev/ttyACM0', 9600)  # Adjust port as needed
 time.sleep(2)  # Wait for the serial connection to initialize
 
 # Arduino IoT Cloud settings
-DEVICE_ID = b"provide your device id"
-SECRET_KEY = b"provide your secret key"
+DEVICE_ID = b"fdfcaea5-5bf1-4901-a8b7-40166c687ff9"
+SECRET_KEY = b"d!C1d3C65J9O7uuhwWMdpfat#"
 
 # Arduino IoT Cloud settings
 def logging_func():
